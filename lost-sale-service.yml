@@ -1,7 +1,7 @@
 
 # config
 spring:
-    profiles: development
+    profiles: native
     datasource:
         username: pdvm
         password: pdvm
