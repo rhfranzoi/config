@@ -7,12 +7,3 @@ spring:
         password: pdvm
         url: jdbc:oracle:thin:@10.110.102.6:1521/cartaot.br1.ocm.s7190549.oraclecloudatcustomer.com
         driver-class-name: oracle.jdbc.OracleDriver
----
-spring:
-    profiles: prod
-    datasource:
-        username: pdvm
-        password: pdvm
-        url: jdbc:oracle:thin:@10.110.102.6:1521/cartaot.br1.ocm.s7190549.oraclecloudatcustomer.com
-        driver-class-name: oracle.jdbc.OracleDriver
-
